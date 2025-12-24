@@ -19,17 +19,17 @@ class ContactMail extends Mailable
     public function envelope(): Envelope
     {
         $subjectMap = [
-            'project' => 'New Project Inquiry',
-            'product' => 'Product Information Request',
-            'services' => 'Service Consultation',
-            'partnership' => 'Partnership Opportunity',
-            'other' => 'General Inquiry',
+            'project' => 'Новый проект',
+            'product' => 'Информация о продукте (Garand 101)',
+            'services' => 'Консультация по услугам',
+            'partnership' => 'Партнерство',
+            'other' => 'Другое',
         ];
 
-        $subject = $subjectMap[$this->data['subject']] ?? 'Contact Form Submission';
+        $subject = $subjectMap[$this->data['subject']] ?? 'Сообщение с сайта dimgent.by';
 
         return new Envelope(
-            subject: "[Dimgent] {$subject}",
+            subject: "[Dimgent.by] {$subject}",
             replyTo: [$this->data['email']],
         );
     }

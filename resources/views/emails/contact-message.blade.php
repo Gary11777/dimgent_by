@@ -98,7 +98,7 @@
         </div>
         
         <div class="field">
-            <div class="field-label">Message</div>
+            <div class="field-label">Сообщение</div>
             <div class="message-box">{{ $data['message'] }}</div>
         </div>
     </div>
