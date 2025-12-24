@@ -1,6 +1,6 @@
-<?php $__env->startSection('title', 'Contacts'); ?>
-<?php $__env->startSection('meta_description', 'Contact Dimgent Technologies for electronic device development services. Get in touch with our team in Minsk, Belarus.'); ?>
-<?php $__env->startSection('meta_keywords', 'Dimgent Technologies Contacts'); ?>
+<?php $__env->startSection('title', 'Контакты'); ?>
+<?php $__env->startSection('meta_description', 'Свяжитесь с Dimgent Technologies для разработки электронных устройств. Минск, Беларусь.'); ?>
+<?php $__env->startSection('meta_keywords', 'контакты Dimgent Technologies'); ?>
 <?php $__env->startSection('robots', 'noindex, nofollow'); ?>
 
 <?php $__env->startSection('content'); ?>
@@ -12,13 +12,13 @@
         
         <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <span class="inline-block px-4 py-1.5 bg-primary-500/20 text-primary-400 text-sm font-semibold rounded-full mb-4">
-                Get in Touch
+                Связь
             </span>
             <h1 class="text-4xl sm:text-5xl font-extrabold text-white mb-6">
-                Contact Us
+                Контакты
             </h1>
             <p class="text-xl text-slate-300 max-w-2xl mx-auto">
-                Have a project in mind? We'd love to hear from you. Send us a message and we'll respond as soon as possible.
+                По всем возникшим вопросам пишите нам. Мы ответим в ближайшее время.
             </p>
         </div>
     </section>
@@ -29,9 +29,9 @@
             <div class="grid lg:grid-cols-5 gap-12 lg:gap-16">
                 <!-- Contact Info -->
                 <div class="lg:col-span-2">
-                    <h2 class="text-2xl font-bold text-slate-900 mb-6">Contact Information</h2>
+                    <h2 class="text-2xl font-bold text-slate-900 mb-6">Контактная информация</h2>
                     <p class="text-slate-600 mb-8">
-                        For more information about our services or to discuss your project, please get in touch with us.
+                        Для получения дополнительной информации о наших услугах или обсуждения вашего проекта свяжитесь с нами.
                     </p>
                     
                     <!-- Contact Cards -->
@@ -47,9 +47,9 @@
                                     </svg>
                                 </div>
                                 <div>
-                                    <h3 class="text-lg font-bold text-slate-900 mb-1">Email</h3>
+                                    <h3 class="text-lg font-bold text-slate-900 mb-1">Э-почта</h3>
                                     <img src="<?php echo e(asset('images/mail_white.png')); ?>" alt="Email">
-                                    <p class="text-sm text-slate-500 mt-1">We reply within 24 hours</p>
+                                    <p class="text-sm text-slate-500 mt-1">Мы отвечаем в течение 24 часов</p>
                                 </div>
                             </div>
                         </div>
@@ -63,9 +63,9 @@
                                     </svg>
                                 </div>
                                 <div>
-                                    <h3 class="text-lg font-bold text-slate-900 mb-1">Working Hours</h3>
-                                    <p class="text-slate-600">Monday - Friday</p>
-                                    <p class="text-sm text-slate-500 mt-1">9:00 AM - 6:00 PM (GMT+3)</p>
+                                    <h3 class="text-lg font-bold text-slate-900 mb-1">Рабочие часы</h3>
+                                    <p class="text-slate-600">Понедельник - Пятница</p>
+                                    <p class="text-sm text-slate-500 mt-1">9:00 - 18:00 (GMT+3)</p>
                                 </div>
                             </div>
                         </div>
@@ -80,10 +80,10 @@
                                 </svg>
                             </div>
                             <div>
-                                <h4 class="font-bold text-slate-900 mb-1">We Work Globally</h4>
+                                <h4 class="font-bold text-slate-900 mb-1">Мы работаем по всему миру</h4>
                                 <p class="text-sm text-slate-600">
-                                    Distance is not a problem. We work with clients from around the world 
-                                    and keep you updated on progress with photos and video.
+                                    Расстояние не проблема. Мы работаем с клиентами из разных стран 
+                                    и держим вас в курсе хода работ с помощью фото и видео.
                                 </p>
                             </div>
                         </div>
@@ -93,8 +93,8 @@
                 <!-- Contact Form -->
                 <div class="lg:col-span-3">
                     <div class="bg-slate-50 rounded-3xl p-8 lg:p-10 border border-slate-100">
-                        <h2 class="text-2xl font-bold text-slate-900 mb-2">Send Us a Message</h2>
-                        <p class="text-slate-600 mb-8">Fill out the form below and we'll get back to you as soon as possible.</p>
+                        <h2 class="text-2xl font-bold text-slate-900 mb-2">Отправьте нам сообщение</h2>
+                        <p class="text-slate-600 mb-8">Заполните форму ниже и мы свяжемся с вами в ближайшее время.</p>
                         
                         <form x-data="{ 
                             formData: { name: '', email: '', company: '', subject: '', message: '' },
@@ -109,11 +109,11 @@
                                 this.errors = {};
                                 this.serverError = '';
                                 
-                                if (!this.formData.name.trim()) this.errors.name = 'Name is required';
-                                if (!this.formData.email.trim()) this.errors.email = 'Email is required';
-                                else if (!this.validateEmail(this.formData.email)) this.errors.email = 'Please enter a valid email';
-                                if (!this.formData.subject.trim()) this.errors.subject = 'Subject is required';
-                                if (!this.formData.message.trim()) this.errors.message = 'Message is required';
+                                if (!this.formData.name.trim()) this.errors.name = 'Имя обязательно';
+                                if (!this.formData.email.trim()) this.errors.email = 'Email обязателен';
+                                else if (!this.validateEmail(this.formData.email)) this.errors.email = 'Введите корректный email';
+                                if (!this.formData.subject.trim()) this.errors.subject = 'Тема обязательна';
+                                if (!this.formData.message.trim()) this.errors.message = 'Сообщение обязательно';
                                 
                                 if (Object.keys(this.errors).length === 0) {
                                     this.loading = true;
@@ -146,12 +146,12 @@
                                                 turnstile.reset();
                                             }
                                         } else if (response.status === 429) {
-                                            this.serverError = 'Too many requests. Please try again later.';
+                                            this.serverError = 'Слишком много запросов. Попробуйте позже.';
                                         } else {
-                                            this.serverError = data.message || 'An error occurred. Please try again.';
+                                            this.serverError = data.message || 'Произошла ошибка. Попробуйте ещё раз.';
                                         }
                                     } catch (error) {
-                                        this.serverError = 'Network error. Please check your connection and try again.';
+                                        this.serverError = 'Ошибка сети. Проверьте подключение и попробуйте снова.';
                                     } finally {
                                         this.loading = false;
                                     }
@@ -200,8 +200,8 @@
                                         </svg>
                                     </div>
                                     <div>
-                                        <h4 class="font-bold text-emerald-800">Message Sent Successfully!</h4>
-                                        <p class="text-emerald-700 text-sm mt-1">Thank you for contacting us. We'll get back to you within 24 hours.</p>
+                                        <h4 class="font-bold text-emerald-800">Сообщение отправлено!</h4>
+                                        <p class="text-emerald-700 text-sm mt-1">Спасибо за обращение. Мы свяжемся с вами в течение 24 часов.</p>
                                     </div>
                                 </div>
                             </div>
@@ -211,7 +211,7 @@
                                     <!-- Name -->
                                     <div>
                                         <label for="name" class="block text-sm font-semibold text-slate-700 mb-2">
-                                            Full Name <span class="text-rose-500">*</span>
+                                            Имя <span class="text-rose-500">*</span>
                                         </label>
                                         <input type="text" 
                                                id="name" 
@@ -219,14 +219,14 @@
                                                x-model="formData.name"
                                                :class="errors.name ? 'border-rose-300 focus:border-rose-500 focus:ring-rose-500' : 'border-slate-200 focus:border-primary-500 focus:ring-primary-500'"
                                                class="w-full px-4 py-3 bg-white border rounded-xl shadow-sm focus:ring-2 focus:ring-offset-0 transition-colors"
-                                               placeholder="Your name">
+                                               placeholder="Ваше имя">
                                         <p x-show="errors.name" x-text="errors.name" class="mt-1 text-sm text-rose-600"></p>
                                     </div>
                                     
                                     <!-- Email -->
                                     <div>
                                         <label for="email" class="block text-sm font-semibold text-slate-700 mb-2">
-                                            Email Address <span class="text-rose-500">*</span>
+                                            Email <span class="text-rose-500">*</span>
                                         </label>
                                         <input type="email" 
                                                id="email" 
@@ -243,32 +243,32 @@
                                     <!-- Company -->
                                     <div>
                                         <label for="company" class="block text-sm font-semibold text-slate-700 mb-2">
-                                            Company Name
+                                            Компания
                                         </label>
                                         <input type="text" 
                                                id="company" 
                                                name="company"
                                                x-model="formData.company"
                                                class="w-full px-4 py-3 bg-white border border-slate-200 rounded-xl shadow-sm focus:border-primary-500 focus:ring-2 focus:ring-primary-500 focus:ring-offset-0 transition-colors"
-                                               placeholder="Your company (optional)">
+                                               placeholder="Ваша компания (необязательно)">
                                     </div>
                                     
                                     <!-- Subject -->
                                     <div>
                                         <label for="subject" class="block text-sm font-semibold text-slate-700 mb-2">
-                                            Subject <span class="text-rose-500">*</span>
+                                            Тема <span class="text-rose-500">*</span>
                                         </label>
                                         <select id="subject" 
                                                 name="subject"
                                                 x-model="formData.subject"
                                                 :class="errors.subject ? 'border-rose-300 focus:border-rose-500 focus:ring-rose-500' : 'border-slate-200 focus:border-primary-500 focus:ring-primary-500'"
                                                 class="w-full px-4 py-3 bg-white border rounded-xl shadow-sm focus:ring-2 focus:ring-offset-0 transition-colors">
-                                            <option value="">Select a subject</option>
-                                            <option value="project">New Project Inquiry</option>
-                                            <option value="product">Product Information (Garand 101)</option>
-                                            <option value="services">Service Consultation</option>
-                                            <option value="partnership">Partnership Opportunity</option>
-                                            <option value="other">Other</option>
+                                            <option value="">Выберите тему</option>
+                                            <option value="project">Новый проект</option>
+                                            <option value="product">Информация о продукте (Garand 101)</option>
+                                            <option value="services">Консультация по услугам</option>
+                                            <option value="partnership">Партнёрство</option>
+                                            <option value="other">Другое</option>
                                         </select>
                                         <p x-show="errors.subject" x-text="errors.subject" class="mt-1 text-sm text-rose-600"></p>
                                     </div>
@@ -277,7 +277,7 @@
                                 <!-- Message -->
                                 <div>
                                     <label for="message" class="block text-sm font-semibold text-slate-700 mb-2">
-                                        Message <span class="text-rose-500">*</span>
+                                        Сообщение <span class="text-rose-500">*</span>
                                     </label>
                                     <textarea id="message" 
                                               name="message"
@@ -285,7 +285,7 @@
                                               x-model="formData.message"
                                               :class="errors.message ? 'border-rose-300 focus:border-rose-500 focus:ring-rose-500' : 'border-slate-200 focus:border-primary-500 focus:ring-primary-500'"
                                               class="w-full px-4 py-3 bg-white border rounded-xl shadow-sm focus:ring-2 focus:ring-offset-0 transition-colors resize-none"
-                                              placeholder="Tell us about your project or inquiry..."></textarea>
+                                              placeholder="Расскажите о вашем проекте или вопросе..."></textarea>
                                     <p x-show="errors.message" x-text="errors.message" class="mt-1 text-sm text-rose-600"></p>
                                 </div>
                                 
@@ -321,13 +321,13 @@
                                             class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 bg-primary-600 text-white font-semibold rounded-xl
                                                    shadow-lg shadow-primary-600/25 hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2
                                                    disabled:opacity-70 disabled:cursor-not-allowed transition-all duration-200">
-                                        <span x-show="!loading">Send Message</span>
+                                        <span x-show="!loading">Отправить</span>
                                         <span x-show="loading" x-cloak class="flex items-center gap-2">
                                             <svg class="animate-spin h-5 w-5" fill="none" viewBox="0 0 24 24">
                                                 <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
                                                 <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
                                             </svg>
-                                            Sending...
+                                            Отправка...
                                         </span>
                                         <svg x-show="!loading" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
@@ -347,29 +347,29 @@
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-12">
                 <span class="inline-block px-4 py-1.5 bg-primary-100 text-primary-700 text-sm font-semibold rounded-full mb-4">
-                    FAQ
+                    Частые вопросы
                 </span>
-                <h2 class="text-3xl font-bold text-slate-900">Frequently Asked Questions</h2>
+                <h2 class="text-3xl font-bold text-slate-900">Часто задаваемые вопросы</h2>
             </div>
             
             <div x-data="{ openFaq: null }" class="space-y-4">
                 <?php
                     $faqs = [
                         [
-                            'question' => 'How do I start a project with Dimgent Technologies?',
-                            'answer' => 'Simply send us a message through the contact form above or email us directly. Describe your project idea and requirements, and our team will get back to you within 24 hours to discuss the next steps.'
+                            'question' => 'Как начать проект с Dimgent Technologies?',
+                            'answer' => 'Просто отправьте нам сообщение через форму выше или напишите на email. Опишите вашу идею и требования, и наша команда свяжется с вами в течение 24 часов.'
                         ],
                         [
-                            'question' => 'Do you work with international clients?',
-                            'answer' => 'Yes! We work with clients from around the world. Distance is not a problem - we use modern communication tools and keep you updated on progress with photos and videos throughout the development process.'
+                            'question' => 'Вы работаете с международными клиентами?',
+                            'answer' => 'Да! Мы работаем с клиентами из разных стран. Расстояние не проблема — мы используем современные средства связи и держим вас в курсе хода работ с помощью фото и видео.'
                         ],
                         [
-                            'question' => 'What is your typical project timeline?',
-                            'answer' => 'Project timelines vary depending on complexity and scope. Simple projects may take a few weeks, while complex full-cycle developments can take several months. We\'ll provide a detailed timeline estimate after understanding your requirements.'
+                            'question' => 'Каковы типичные сроки проекта?',
+                            'answer' => 'Сроки зависят от сложности и объёма проекта. Простые проекты могут занять несколько недель, а сложные разработки полного цикла — несколько месяцев. Мы предоставим детальную оценку сроков после изучения ваших требований.'
                         ],
                         [
-                            'question' => 'Can you complete a project that was already started elsewhere?',
-                            'answer' => 'Yes, we offer completion services for uncompleted projects. Our team can review your existing work, identify what needs to be done, and complete the development to your specifications.'
+                            'question' => 'Можете ли вы завершить проект, начатый в другом месте?',
+                            'answer' => 'Да, мы предлагаем услуги по завершению незаконченных проектов. Наша команда может проанализировать существующую работу, определить, что нужно сделать, и завершить разработку по вашим спецификациям.'
                         ],
                     ];
                 ?>

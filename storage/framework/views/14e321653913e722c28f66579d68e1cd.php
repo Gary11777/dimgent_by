@@ -1,6 +1,6 @@
-<?php $__env->startSection('title', 'Products'); ?>
-<?php $__env->startSection('meta_description', 'Garand 101 - High-resolution fluxgate magnetometer-gradiometer for archaeological research, environmental monitoring, and geological studies.'); ?>
-<?php $__env->startSection('meta_keywords', 'Garand 101, fluxgate magnetometer-gradiometer, archaeological research, environmental monitoring, geological studies'); ?>
+<?php $__env->startSection('title', 'Разработки'); ?>
+<?php $__env->startSection('meta_description', 'Garand 101 - феррозондовый магнитометр-градиометр для археологических исследований и геологии.'); ?>
+<?php $__env->startSection('meta_keywords', 'Garand 101, феррозондовый магнитометр, градиометр, археология, геология'); ?>
 <?php $__env->startSection('robots', 'index, follow'); ?>
 
 <?php $__env->startSection('content'); ?>
@@ -12,16 +12,16 @@
         
         <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <span class="inline-block px-4 py-1.5 bg-primary-500/20 text-primary-400 text-sm font-semibold rounded-full mb-4">
-                Our Products
+                Наши разработки
             </span>
             <h1 class="text-4xl sm:text-5xl font-extrabold text-white mb-6">
                 Garand 101
             </h1>
             <p class="text-xl sm:text-2xl text-primary-300 font-medium mb-4">
-                High-Resolution Fluxgate Magnetometer
+                Феррозондовый магнитометр-градиометр
             </p>
             <p class="text-lg text-slate-300 max-w-2xl mx-auto">
-                "Magnetic detection can be easy and convenient!"
+                Пешеходный носимый магнитометр
             </p>
         </div>
     </section>
@@ -70,29 +70,29 @@
                 <div>
                     <div class="mb-8">
                         <span class="inline-block px-3 py-1 bg-emerald-100 text-emerald-700 text-sm font-semibold rounded-full mb-4">
-                            Available Now
+                            В наличии
                         </span>
                         <h2 class="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">
-                            Garand 101 Magnetometer-Gradiometer
+                            Магнитометр-градиометр Garand 101
                         </h2>
                         <p class="text-lg text-slate-600 leading-relaxed">
-                            A high-resolution fluxgate magnetometer-gradiometer designed to measure disruptions 
-                            in the Earth's magnetic field caused by ferromagnetic objects. It provides reliable 
-                            detection of metals such as <strong>iron, steel, and nickel</strong>.
+                            Garand 101 – это пешеходный носимый магнитометр-градиометр, магнитометрический 
+                            преобразователь градиента компоненты магнитной индукции в цифровое и графическое 
+                            представление на экране жидкокристаллического дисплея.
                         </p>
                     </div>
                     
                     <!-- Key Benefits -->
                     <div class="bg-slate-50 rounded-2xl p-6 mb-8">
-                        <h3 class="text-lg font-bold text-slate-900 mb-4">Key Features</h3>
+                        <h3 class="text-lg font-bold text-slate-900 mb-4">Особенности</h3>
                         <div class="space-y-3">
                             <?php
                                 $keyFeatures = [
-                                    'One-person operation',
-                                    'Lightweight design',
-                                    'User-friendly interface',
-                                    'Reliable performance',
-                                    'Cost-effective solution'
+                                    'Простота использования',
+                                    'Один из самых лёгких магнитометров (2 кг)',
+                                    'Прочная и цельная конструкция',
+                                    'Высокая устойчивость к помехам',
+                                    'Звуковой сигнал + график на экране'
                                 ];
                             ?>
                             <?php $__currentLoopData = $keyFeatures; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $feature): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
@@ -110,16 +110,16 @@
                     
                     <!-- Target Areas -->
                     <div class="mb-8">
-                        <h3 class="text-lg font-bold text-slate-900 mb-4">Target Applications</h3>
+                        <h3 class="text-lg font-bold text-slate-900 mb-4">Области применения</h3>
                         <div class="grid grid-cols-2 gap-3">
                             <?php
                                 $areas = [
-                                    ['icon' => '🏛️', 'name' => 'Archaeological Research'],
-                                    ['icon' => '🌍', 'name' => 'Environmental Monitoring'],
-                                    ['icon' => '🔍', 'name' => 'Forensic Investigations'],
-                                    ['icon' => '⛰️', 'name' => 'Geological Studies'],
-                                    ['icon' => '🏗️', 'name' => 'Civil Engineering'],
-                                    ['icon' => '🎖️', 'name' => 'Military Applications'],
+                                    ['icon' => '🏛️', 'name' => 'Археология'],
+                                    ['icon' => '🌍', 'name' => 'Экологический мониторинг'],
+                                    ['icon' => '🔍', 'name' => 'Криминалистика'],
+                                    ['icon' => '⛰️', 'name' => 'Геология'],
+                                    ['icon' => '🏗️', 'name' => 'Строительство'],
+                                    ['icon' => '🎖️', 'name' => 'Военное применение'],
                                 ];
                             ?>
                             <?php $__currentLoopData = $areas; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $area): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
@@ -140,12 +140,12 @@
                             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
                             </svg>
-                            Download Presentation (PDF)
+                            Скачать презентацию (PDF)
                         </a>
                         <a href="<?php echo e(route('contacts')); ?>" 
                            class="inline-flex items-center justify-center gap-2 px-6 py-3 bg-slate-100 text-slate-700 font-semibold rounded-xl
                                   hover:bg-slate-200 transition-colors">
-                            Request Information
+                            Запросить информацию
                         </a>
                     </div>
                     
@@ -161,13 +161,13 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-3xl mx-auto mb-16">
                 <span class="inline-block px-4 py-1.5 bg-primary-100 text-primary-700 text-sm font-semibold rounded-full mb-4">
-                    Innovation
+                    Инновации
                 </span>
                 <h2 class="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">
-                    New Magnetic Field Measurement Technology
+                    Новая технология измерения магнитного поля
                 </h2>
                 <p class="text-lg text-slate-600">
-                    Garand 101 implements cutting-edge technology that sets it apart from traditional magnetometers.
+                    Garand 101 использует передовые технологии, которые выгодно отличают его от традиционных магнитометров.
                 </p>
             </div>
             
@@ -176,18 +176,18 @@
                     $techBenefits = [
                         [
                             'icon' => '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>',
-                            'title' => 'Reduced Energy Consumption',
-                            'description' => 'Optimized power management extends battery life and reduces operational costs.'
+                            'title' => 'Низкое энергопотребление',
+                            'description' => 'Оптимизированное управление питанием увеличивает срок службы батареи.'
                         ],
                         [
                             'icon' => '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"/>',
-                            'title' => 'Lightweight Design',
-                            'description' => 'Simplified construction makes the device easy to carry for extended field operations.'
+                            'title' => 'Лёгкая конструкция',
+                            'description' => 'Упрощённая конструкция делает прибор удобным для длительных полевых работ.'
                         ],
                         [
                             'icon' => '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>',
-                            'title' => 'Extended Operating Time',
-                            'description' => 'Longer operation between charges means more productive field sessions.'
+                            'title' => 'Длительная работа',
+                            'description' => 'Более длительная работа между зарядками для продуктивных исследований.'
                         ],
                     ];
                 ?>
@@ -214,26 +214,26 @@
             <div class="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
                 <div>
                     <span class="inline-block px-4 py-1.5 bg-amber-100 text-amber-700 text-sm font-semibold rounded-full mb-4">
-                        Competitive Edge
+                        Преимущества
                     </span>
                     <h2 class="text-3xl sm:text-4xl font-bold text-slate-900 mb-6">
-                        Advantages Over Other Magnetometers
+                        Преимущества перед другими магнитометрами
                     </h2>
                     <p class="text-lg text-slate-600 mb-8">
-                        Garand 101 offers significant advantages that make it the preferred choice 
-                        for professionals in various fields.
+                        Garand 101 предлагает значительные преимущества, которые делают его 
+                        предпочтительным выбором для профессионалов.
                     </p>
                     
                     <div class="space-y-4">
                         <?php
                             $advantages = [
-                                'Innovative magnetic field measurement technology',
-                                'Fully digital device with improved noise stability',
-                                'User-friendly visualization system and interface',
-                                'Reliable and robust design',
-                                'Expanded detection area due to optimized design',
-                                'Plug-and-play operation',
-                                'Affordable price'
+                                'Инновационная технология измерения магнитного поля',
+                                'Полностью цифровое устройство с улучшенной устойчивостью к шумам',
+                                'Удобная система визуализации и интерфейс',
+                                'Надёжная и прочная конструкция',
+                                'Расширенная зона обнаружения благодаря оптимизированной конструкции',
+                                'Работа сразу после включения',
+                                'Доступная цена'
                             ];
                         ?>
                         
@@ -263,16 +263,16 @@
     <section class="py-20 lg:py-28 bg-gradient-to-br from-primary-600 to-primary-700">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 class="text-3xl sm:text-4xl font-bold text-white mb-6">
-                Interested in Garand 101?
+                Интересует Garand 101?
             </h2>
             <p class="text-xl text-primary-100 mb-8 max-w-2xl mx-auto">
-                Contact us for pricing, technical specifications, or to schedule a demonstration.
+                Свяжитесь с нами для получения информации о ценах, технических характеристиках или демонстрации.
             </p>
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
                 <a href="<?php echo e(route('contacts')); ?>" 
                    class="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white text-primary-700 font-bold rounded-xl
                           shadow-xl hover:bg-primary-50 transform hover:-translate-y-0.5 transition-all duration-200">
-                    Contact Us
+                    Свяжитесь с нами
                     <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
                     </svg>
@@ -284,7 +284,7 @@
                     <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
                     </svg>
-                    Download PDF Brochure
+                    Скачать PDF-брошюру
                 </a>
             </div>
         </div>

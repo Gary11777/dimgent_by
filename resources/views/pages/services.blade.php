@@ -1,8 +1,8 @@
 @extends('layouts.app')
 
-@section('title', 'Services')
-@section('meta_description', 'Custom electronic device development services - full cycle development from concept to finished product, or individual phases as required.')
-@section('meta_keywords', 'developing electronic devices, designing circuit boards, developing hardware devices, software, developing customized electronic devices, electric circuits, developing circuit boards, programming microcontrollers')
+@section('title', 'Услуги')
+@section('meta_description', 'Услуги по разработке электронных устройств на заказ - полный цикл разработки от концепта до готового изделия.')
+@section('meta_keywords', 'разработка электронных устройств, разработка печатных плат, программное обеспечение, электрические схемы, программирование микроконтроллеров')
 @section('robots', 'index, follow')
 
 @section('content')
@@ -14,14 +14,14 @@
         
         <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <span class="inline-block px-4 py-1.5 bg-primary-500/20 text-primary-400 text-sm font-semibold rounded-full mb-4">
-                What We Offer
+                Что мы предлагаем
             </span>
             <h1 class="text-4xl sm:text-5xl font-extrabold text-white mb-6">
-                Our Services
+                Услуги
             </h1>
             <p class="text-xl text-slate-300 max-w-3xl mx-auto">
-                Customized development of electronic devices — from concept to finished product, 
-                or individual phases as required.
+                Разработка электронных устройств на заказ — от концепта до готового изделия, 
+                а также реализация отдельных стадий.
             </p>
         </div>
     </section>
@@ -31,13 +31,13 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-3xl mx-auto mb-16">
                 <span class="inline-block px-4 py-1.5 bg-primary-100 text-primary-700 text-sm font-semibold rounded-full mb-4">
-                    Full Cycle Development
+                    Полный цикл разработки
                 </span>
                 <h2 class="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">
-                    Comprehensive Electronics Development
+                    Разработка электроники на заказ
                 </h2>
                 <p class="text-lg text-slate-600">
-                    We offer full cycle development of electronic devices or can complete individual phases based on your requirements.
+                    Осуществляем полный цикл разработки электронных устройств, а также реализацию отдельных стадий.
                 </p>
             </div>
             
@@ -47,56 +47,56 @@
                     $services = [
                         [
                             'icon' => '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>',
-                            'title' => 'Technical Specifications',
-                            'description' => 'Preparation and approval of technical specifications for an electronic device you need.',
+                            'title' => 'Техническое задание',
+                            'description' => 'Подготовка и согласование технического задания на необходимое вам электронное устройство.',
                             'color' => 'primary'
                         ],
                         [
                             'icon' => '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/>',
-                            'title' => 'Component Selection',
-                            'description' => 'Selection of electronic components, mechanical parts, and bundles for the device.',
+                            'title' => 'Подбор компонентов',
+                            'description' => 'Подбор электронных компонентов, механических деталей и узлов устройства.',
                             'color' => 'emerald'
                         ],
                         [
                             'icon' => '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>',
-                            'title' => 'Electric Circuit Development',
-                            'description' => 'Expert development of electric circuits optimized for performance and reliability.',
+                            'title' => 'Электрические схемы',
+                            'description' => 'Разработка электрических схем устройства, оптимизированных для производительности и надёжности.',
                             'color' => 'amber'
                         ],
                         [
                             'icon' => '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/>',
-                            'title' => 'Software Development',
-                            'description' => 'Custom software development for microcontrollers and embedded systems.',
+                            'title' => 'Программное обеспечение',
+                            'description' => 'Разработка ПО для микроконтроллеров и встроенных систем.',
                             'color' => 'cyan'
                         ],
                         [
                             'icon' => '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"/>',
-                            'title' => 'PCB Design',
-                            'description' => 'Development of printed circuit board drawings optimized for manufacturing.',
+                            'title' => 'Чертежи печатных плат',
+                            'description' => 'Разработка чертежей печатных плат, оптимизированных для производства.',
                             'color' => 'violet'
                         ],
                         [
                             'icon' => '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z"/>',
-                            'title' => 'Structural Design',
-                            'description' => 'Structural plans and design of product casing for optimal form and function.',
+                            'title' => 'Дизайн корпуса',
+                            'description' => 'Проектирование структуры и дизайна корпуса устройства.',
                             'color' => 'rose'
                         ],
                         [
                             'icon' => '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/>',
-                            'title' => 'Prototyping',
-                            'description' => 'Production of test models including assembly, fitting, programming, debugging, and testing.',
+                            'title' => 'Опытные образцы',
+                            'description' => 'Производство опытного образца: монтаж, сборка, программирование, отладка и испытание.',
                             'color' => 'orange'
                         ],
                         [
                             'icon' => '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>',
-                            'title' => 'Certification Preparation',
-                            'description' => 'Complete preparation for product certification and regulatory compliance.',
+                            'title' => 'Подготовка к сертификации',
+                            'description' => 'Полная подготовка к сертификации продукта.',
                             'color' => 'teal'
                         ],
                         [
                             'icon' => '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z"/>',
-                            'title' => 'Technical Support',
-                            'description' => 'Ongoing technical support from our team of developers throughout your product lifecycle.',
+                            'title' => 'Техническая поддержка',
+                            'description' => 'Все наши проекты сопровождаются дальнейшей поддержкой нашей команды разработчиков.',
                             'color' => 'indigo'
                         ],
                     ];
@@ -139,10 +139,10 @@
                         </svg>
                     </div>
                     <div>
-                        <h4 class="text-lg font-bold text-slate-900 mb-2">Flexible Service Options</h4>
+                        <h4 class="text-lg font-bold text-slate-900 mb-2">Гибкие условия</h4>
                         <p class="text-slate-600">
-                            Some development phases may be omitted as required. Additional development phases may also be included 
-                            if required. We tailor our services to match your specific project needs.
+                            Некоторые этапы разработки могут быть исключены при необходимости. Также процесс разработки 
+                            может включать дополнительные этапы.
                         </p>
                     </div>
                 </div>
@@ -155,13 +155,13 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-3xl mx-auto mb-16">
                 <span class="inline-block px-4 py-1.5 bg-emerald-100 text-emerald-700 text-sm font-semibold rounded-full mb-4">
-                    Why Choose Us
+                    Почему мы
                 </span>
                 <h2 class="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">
-                    Advantages of Working With Us
+                    Преимущества работы с нами
                 </h2>
                 <p class="text-lg text-slate-600">
-                    When ordering electronic equipment development from Dimgent Technologies, you'll obtain these advantages.
+                    При заказе разработки электронного оборудования в компании «Dimgent Technologies» вы получаете следующие преимущества.
                 </p>
             </div>
             
@@ -170,43 +170,43 @@
                     $advantages = [
                         [
                             'icon' => '💰',
-                            'title' => 'Cost-Effective',
-                            'description' => 'One reason for choosing us is our cost-effective high-quality services.'
+                            'title' => 'Стоимость',
+                            'description' => 'Невысокие цены за высокое качество.'
                         ],
                         [
                             'icon' => '⚡',
-                            'title' => 'Speed',
-                            'description' => 'We take projects only up to our handling capacity and concentrate on each project.'
+                            'title' => 'Скорость',
+                            'description' => 'Мы принимаем ровно столько заказов, сколько можем выполнить, полностью концентрируясь на них.'
                         ],
                         [
                             'icon' => '🎯',
-                            'title' => 'Efficiency',
-                            'description' => 'Standard design elements help keeping costs down while maintaining quality.'
+                            'title' => 'Эффективность',
+                            'description' => 'Типовые разработки снижают стоимость разработки.'
                         ],
                         [
                             'icon' => '🛡️',
-                            'title' => 'Support',
-                            'description' => 'All projects are offered ongoing support from our team of developers.'
+                            'title' => 'Поддержка',
+                            'description' => 'Все наши проекты сопровождаются дальнейшей поддержкой нашей команды.'
                         ],
                         [
                             'icon' => '✅',
-                            'title' => 'Reliability',
-                            'description' => 'All products are assembled and tested in our laboratory before delivery.'
+                            'title' => 'Надёжность',
+                            'description' => 'Все устройства монтируются и тестируются в нашей лаборатории перед отправкой.'
                         ],
                         [
                             'icon' => '🏆',
-                            'title' => 'Experience',
-                            'description' => 'Our specialists have been creating electronic devices for more than twenty years.'
+                            'title' => 'Опыт',
+                            'description' => 'На протяжении более 20 лет наши специалисты занимаются созданием электронных устройств.'
                         ],
                         [
                             'icon' => '💯',
-                            'title' => 'Guaranteed Success',
-                            'description' => 'Thanks to extensive experience we have a 100% success rate in product design.'
+                            'title' => 'Гарантированный успех',
+                            'description' => 'Благодаря большому опыту шанс успешной разработки составляет 100%.'
                         ],
                         [
                             'icon' => '🤝',
-                            'title' => 'Client Satisfaction',
-                            'description' => 'We work with clients until the product is exactly what they want it to be.'
+                            'title' => 'Наша цель',
+                            'description' => 'Мы работаем с клиентами до тех пор, пока устройство не станет таким, каким они хотят его видеть.'
                         ],
                     ];
                 @endphp
@@ -233,31 +233,31 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/>
                         </svg>
                     </div>
-                    <h3 class="text-2xl font-bold text-slate-900 mb-6">We Can Provide</h3>
+                    <h3 class="text-2xl font-bold text-slate-900 mb-6">Мы можем предложить</h3>
                     <ul class="space-y-4">
                         <li class="flex items-start gap-3">
                             <svg class="w-6 h-6 text-primary-600 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
                             </svg>
-                            <span class="text-slate-700">The full cycle of electronic devices development (from concept to finished product)</span>
+                            <span class="text-slate-700">Полный цикл разработки электронных устройств (от концепта до готового изделия)</span>
                         </li>
                         <li class="flex items-start gap-3">
                             <svg class="w-6 h-6 text-primary-600 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
                             </svg>
-                            <span class="text-slate-700">Provision of individual phases of development</span>
+                            <span class="text-slate-700">Реализацию отдельных стадий разработки</span>
                         </li>
                         <li class="flex items-start gap-3">
                             <svg class="w-6 h-6 text-primary-600 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
                             </svg>
-                            <span class="text-slate-700">Completion of uncompleted projects which have already been started</span>
+                            <span class="text-slate-700">Завершение незаконченных проектов</span>
                         </li>
                         <li class="flex items-start gap-3">
                             <svg class="w-6 h-6 text-primary-600 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
                             </svg>
-                            <span class="text-slate-700">Industrial controllers and microcontrollers programming</span>
+                            <span class="text-slate-700">Программирование промышленных контроллеров и микроконтроллеров</span>
                         </li>
                     </ul>
                 </div>
@@ -269,37 +269,37 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"/>
                         </svg>
                     </div>
-                    <h3 class="text-2xl font-bold mb-6">Dimgent Technologies Is</h3>
+                    <h3 class="text-2xl font-bold mb-6">Dimgent Technologies — это</h3>
                     <ul class="space-y-4">
                         <li class="flex items-center gap-3">
                             <span class="text-primary-400 font-bold">20+</span>
-                            <span class="text-slate-300">years of experience</span>
+                            <span class="text-slate-300">лет опыта</span>
                         </li>
                         <li class="flex items-center gap-3">
                             <span class="text-primary-400 font-bold">50+</span>
-                            <span class="text-slate-300">successfully completed projects</span>
+                            <span class="text-slate-300">успешно завершённых проектов</span>
                         </li>
                         <li class="flex items-center gap-3">
                             <span class="text-primary-400 font-bold">100%</span>
-                            <span class="text-slate-300">experienced specialists</span>
+                            <span class="text-slate-300">опытные специалисты</span>
                         </li>
                         <li class="flex items-center gap-3">
                             <svg class="w-5 h-5 text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
                             </svg>
-                            <span class="text-slate-300">Guaranteed quality</span>
+                            <span class="text-slate-300">Гарантированное качество</span>
                         </li>
                         <li class="flex items-center gap-3">
                             <svg class="w-5 h-5 text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
                             </svg>
-                            <span class="text-slate-300">Short turn-around times</span>
+                            <span class="text-slate-300">Короткие сроки разработки</span>
                         </li>
                         <li class="flex items-center gap-3">
                             <svg class="w-5 h-5 text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
                             </svg>
-                            <span class="text-slate-300">Cost effective solutions</span>
+                            <span class="text-slate-300">Эффективные решения</span>
                         </li>
                     </ul>
                 </div>
@@ -318,25 +318,23 @@
                 </div>
                 
                 <h2 class="text-3xl font-bold text-slate-900 mb-4">
-                    Is Distance a Problem? No, Of Course Not!
+                    Расстояние — не проблема!
                 </h2>
                 
                 <p class="text-lg text-slate-600 mb-6 leading-relaxed">
-                    The majority of our clients from other countries wish to outsource device development to keep costs down. 
-                    Some were concerned that work is carried out far away, however once they received the finished product 
-                    and evaluated its quality, they often make more orders.
+                    Мы успешно работаем с клиентами из разных стран. 
+                    Интернет делает нас ближе, чем когда-либо.
                 </p>
                 
                 <p class="text-lg text-slate-600 mb-8 leading-relaxed">
-                    We can assure you that <strong class="text-slate-900">distance is not a problem</strong>, 
-                    since the Internet brings us nearer than ever before. Furthermore, we will keep you updated 
-                    on the progress of the work with photos and video if you wish.
+                    Мы гарантируем, что <strong class="text-slate-900">расстояние не является препятствием</strong>. 
+                    Мы будем держать вас в курсе хода работ с помощью фото и видео.
                 </p>
                 
                 <a href="{{ route('contacts') }}" 
                    class="inline-flex items-center gap-2 px-8 py-4 bg-primary-600 text-white font-semibold rounded-xl
                           shadow-lg shadow-primary-600/25 hover:bg-primary-700 transition-all duration-200">
-                    Start Your Project Today
+                    Начать проект сегодня
                     <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
                     </svg>

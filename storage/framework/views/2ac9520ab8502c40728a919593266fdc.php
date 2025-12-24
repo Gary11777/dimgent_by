@@ -1,6 +1,6 @@
-<?php $__env->startSection('title', 'Home'); ?>
-<?php $__env->startSection('meta_description', 'Dimgent Technologies - Custom electronic device development from concept to finished product. More than 20 years of experience.'); ?>
-<?php $__env->startSection('meta_keywords', 'developing hardware devices, designing circuit boards, developing customized electronic devices, electric circuits, developing electronic equipment'); ?>
+<?php $__env->startSection('title', 'Главная'); ?>
+<?php $__env->startSection('meta_description', 'Dimgent Technologies - Разработка электронных устройств на заказ. От концепта до готового изделия. Более 20 лет опыта.'); ?>
+<?php $__env->startSection('meta_keywords', 'разработка электроники, разработка печатных плат, разработка электронных устройств на заказ, электрические схемы, разработка электронного оборудования'); ?>
 <?php $__env->startSection('robots', 'index, follow'); ?>
 
 <?php $__env->startSection('content'); ?>
@@ -21,15 +21,15 @@
                     </div>
                     
                     <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-tight mb-6">
-                        Custom Electronics
+                        Разработка
                         <span class="block text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-cyan-400">
-                            Development
+                            электронных устройств
                         </span>
                     </h1>
                     
                     <p class="text-lg sm:text-xl text-slate-300 leading-relaxed mb-8 max-w-xl mx-auto lg:mx-0">
-                        A team of specialists with <strong class="text-white">20+ years of experience</strong> 
-                        delivering full-cycle electronic device development — from concept to finished product.
+                        Компания «Dimgent Technologies» – это группа специалистов с <strong class="text-white">более чем 20-летним опытом</strong> 
+                        в области разработки электронного оборудования — от концепта до готового изделия.
                     </p>
                     
                     <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
@@ -37,7 +37,7 @@
                            class="inline-flex items-center justify-center gap-2 px-8 py-4 bg-primary-600 text-white font-semibold rounded-xl
                                   shadow-xl shadow-primary-600/30 hover:bg-primary-500 hover:shadow-2xl hover:shadow-primary-500/40
                                   transform hover:-translate-y-0.5 transition-all duration-200">
-                            Explore Our Services
+                            Наши услуги
                             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
                             </svg>
@@ -45,7 +45,7 @@
                         <a href="<?php echo e(route('products')); ?>" 
                            class="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white/10 text-white font-semibold rounded-xl
                                   border border-white/20 hover:bg-white/20 backdrop-blur-sm transition-all duration-200">
-                            View Products
+                            Наши разработки
                         </a>
                     </div>
                 </div>
@@ -56,19 +56,19 @@
                         <div class="grid grid-cols-2 gap-6">
                             <div class="text-center p-6 bg-white/5 rounded-2xl">
                                 <div class="text-4xl sm:text-5xl font-extrabold text-white mb-2">20+</div>
-                                <div class="text-slate-400 text-sm">Years Experience</div>
+                                <div class="text-slate-400 text-sm">Лет опыта</div>
                             </div>
                             <div class="text-center p-6 bg-white/5 rounded-2xl">
                                 <div class="text-4xl sm:text-5xl font-extrabold text-white mb-2">50+</div>
-                                <div class="text-slate-400 text-sm">Projects Completed</div>
+                                <div class="text-slate-400 text-sm">Завершённых проектов</div>
                             </div>
                             <div class="text-center p-6 bg-white/5 rounded-2xl">
                                 <div class="text-4xl sm:text-5xl font-extrabold text-white mb-2">100%</div>
-                                <div class="text-slate-400 text-sm">Success Rate</div>
+                                <div class="text-slate-400 text-sm">Успешных проектов</div>
                             </div>
                             <div class="text-center p-6 bg-white/5 rounded-2xl">
                                 <div class="text-4xl sm:text-5xl font-extrabold text-primary-400 mb-2">∞</div>
-                                <div class="text-slate-400 text-sm">Client Support</div>
+                                <div class="text-slate-400 text-sm">Поддержка клиентов</div>
                             </div>
                         </div>
                     </div>
@@ -94,14 +94,14 @@
             <!-- Section Header -->
             <div class="text-center max-w-3xl mx-auto mb-16">
                 <span class="inline-block px-4 py-1.5 bg-primary-100 text-primary-700 text-sm font-semibold rounded-full mb-4">
-                    Our Expertise
+                    Наши направления
                 </span>
                 <h2 class="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">
-                    Full-Cycle Electronics Development
+                    Полный цикл разработки электроники
                 </h2>
                 <p class="text-lg text-slate-600 leading-relaxed">
-                    From initial concept to finished product, we offer comprehensive electronic device development 
-                    services tailored to your specific needs.
+                    Осуществляем полный цикл разработки электронных устройств (от макета до готового изделия), 
+                    а также реализацию отдельных стадий.
                 </p>
             </div>
             
@@ -111,33 +111,33 @@
                     $services = [
                         [
                             'icon' => '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>',
-                            'title' => 'Technical Specifications',
-                            'description' => 'Preparation and approval of detailed technical specifications for your electronic device requirements.'
+                            'title' => 'Техническое задание',
+                            'description' => 'Подготовка и согласование технического задания на необходимое вам электронное устройство.'
                         ],
                         [
                             'icon' => '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>',
-                            'title' => 'Electric Circuits',
-                            'description' => 'Expert development of electric circuits with optimal component selection for performance and cost.'
+                            'title' => 'Электрические схемы',
+                            'description' => 'Разработка электрических схем устройства с оптимальным подбором компонентов.'
                         ],
                         [
                             'icon' => '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/>',
-                            'title' => 'Software Development',
-                            'description' => 'Custom software solutions for microcontrollers, embedded systems, and user interfaces.'
+                            'title' => 'Программное обеспечение',
+                            'description' => 'Разработка ПО для микроконтроллеров, встроенных систем и пользовательских интерфейсов.'
                         ],
                         [
                             'icon' => '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"/>',
-                            'title' => 'PCB Design',
-                            'description' => 'Professional printed circuit board layouts optimized for manufacturing and performance.'
+                            'title' => 'Чертежи печатных плат',
+                            'description' => 'Разработка чертежей печатных плат, оптимизированных для производства.'
                         ],
                         [
                             'icon' => '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/>',
-                            'title' => 'Prototyping',
-                            'description' => 'Test model production including assembly, fitting, programming, debugging, and testing.'
+                            'title' => 'Опытные образцы',
+                            'description' => 'Производство опытного образца: монтаж, сборка, программирование, отладка и испытание.'
                         ],
                         [
                             'icon' => '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z"/>',
-                            'title' => 'Technical Support',
-                            'description' => 'Ongoing support from our team of developers throughout your product lifecycle.'
+                            'title' => 'Техническая поддержка',
+                            'description' => 'Все наши проекты сопровождаются дальнейшей поддержкой нашей команды разработчиков.'
                         ],
                     ];
                 ?>
@@ -162,7 +162,7 @@
             <div class="text-center mt-12">
                 <a href="<?php echo e(route('services')); ?>" 
                    class="inline-flex items-center gap-2 text-primary-600 font-semibold hover:text-primary-700 transition-colors">
-                    View All Services
+                    Все услуги
                     <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
                     </svg>
@@ -192,28 +192,27 @@
                 <!-- Product Info -->
                 <div class="order-1 lg:order-2">
                     <span class="inline-block px-4 py-1.5 bg-amber-100 text-amber-700 text-sm font-semibold rounded-full mb-4">
-                        Our Product
+                        Наша разработка
                     </span>
                     <h2 class="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">
-                        Garand 101 Magnetometer
+                        Магнитометр Garand 101
                     </h2>
                     <p class="text-xl text-primary-600 font-medium mb-6">
-                        "Magnetic detection can be easy and convenient!"
+                        Феррозондовый магнитометр-градиометр
                     </p>
                     <p class="text-lg text-slate-600 leading-relaxed mb-8">
-                        A high-resolution fluxgate magnetometer-gradiometer designed to measure disruptions 
-                        in the Earth's magnetic field caused by ferromagnetic objects. Lightweight, user-friendly, 
-                        reliable, and cost-effective.
+                        Garand 101 – это пешеходный носимый магнитометр-градиометр для измерения 
+                        нарушений магнитного поля Земли. Лёгкий, удобный, надёжный и эффективный.
                     </p>
                     
                     <!-- Key Features -->
                     <div class="grid sm:grid-cols-2 gap-4 mb-8">
                         <?php
                             $features = [
-                                'Archaeological research',
-                                'Environmental monitoring',
-                                'Forensic investigations',
-                                'Geological studies'
+                                'Археологические исследования',
+                                'Простота использования',
+                                'Высокая устойчивость к помехам',
+                                'Геологические исследования'
                             ];
                         ?>
                         <?php $__currentLoopData = $features; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $feature): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
@@ -231,7 +230,7 @@
                     <a href="<?php echo e(route('products')); ?>" 
                        class="inline-flex items-center gap-2 px-6 py-3 bg-slate-900 text-white font-semibold rounded-xl
                               hover:bg-slate-800 transition-colors">
-                        Learn More About Garand 101
+                        Подробнее о Garand 101
                         <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
                         </svg>
@@ -247,14 +246,14 @@
             <!-- Section Header -->
             <div class="text-center max-w-3xl mx-auto mb-16">
                 <span class="inline-block px-4 py-1.5 bg-primary-500/20 text-primary-400 text-sm font-semibold rounded-full mb-4">
-                    Why Choose Us
+                    Почему мы
                 </span>
                 <h2 class="text-3xl sm:text-4xl font-bold text-white mb-4">
-                    Advantages of Working With Us
+                    Преимущества работы с нами
                 </h2>
                 <p class="text-lg text-slate-400 leading-relaxed">
-                    When you order electronic equipment development from Dimgent Technologies, 
-                    you get these distinct advantages.
+                    При заказе разработки электронного оборудования в компании «Dimgent Technologies» 
+                    вы получаете следующие преимущества.
                 </p>
             </div>
             
@@ -262,10 +261,10 @@
             <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
                 <?php
                     $advantages = [
-                        ['icon' => '💰', 'title' => 'Cost-Effective', 'description' => 'High-quality services at competitive prices'],
-                        ['icon' => '⚡', 'title' => 'Fast Delivery', 'description' => 'Focused attention on each project'],
-                        ['icon' => '🎯', 'title' => 'Efficiency', 'description' => 'Standard elements reduce development time'],
-                        ['icon' => '🛡️', 'title' => 'Reliability', 'description' => 'All products tested before delivery'],
+                        ['icon' => '💰', 'title' => 'Стоимость', 'description' => 'Невысокие цены за высокое качество'],
+                        ['icon' => '⚡', 'title' => 'Скорость', 'description' => 'Полная концентрация на каждом проекте'],
+                        ['icon' => '🎯', 'title' => 'Эффективность', 'description' => 'Типовые разработки снижают стоимость'],
+                        ['icon' => '🛡️', 'title' => 'Надёжность', 'description' => 'Все устройства тестируются перед отправкой'],
                     ];
                 ?>
                 
@@ -285,17 +284,17 @@
     <section class="py-20 lg:py-28 bg-gradient-to-br from-primary-600 to-primary-700">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 class="text-3xl sm:text-4xl font-bold text-white mb-6">
-                Ready to Start Your Project?
+                Готовы начать проект?
             </h2>
             <p class="text-xl text-primary-100 mb-8 max-w-2xl mx-auto">
-                Whether you need a full-cycle development or just specific phases, 
-                we're here to help bring your electronic device ideas to life.
+                Нужен полный цикл разработки или только отдельные этапы — 
+                мы поможем воплотить ваши идеи в жизнь.
             </p>
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
                 <a href="<?php echo e(route('contacts')); ?>" 
                    class="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white text-primary-700 font-bold rounded-xl
                           shadow-xl hover:bg-primary-50 transform hover:-translate-y-0.5 transition-all duration-200">
-                    Contact Us Today
+                    Свяжитесь с нами
                     <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
                     </svg>
@@ -303,7 +302,7 @@
                 <a href="<?php echo e(route('about')); ?>" 
                    class="inline-flex items-center justify-center gap-2 px-8 py-4 bg-primary-500/30 text-white font-semibold rounded-xl
                           border border-primary-400/30 hover:bg-primary-500/50 transition-all duration-200">
-                    Learn More About Us
+                    Подробнее о нас
                 </a>
             </div>
         </div>

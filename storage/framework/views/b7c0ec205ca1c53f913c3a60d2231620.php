@@ -1,6 +1,6 @@
-<?php $__env->startSection('title', 'About Us'); ?>
-<?php $__env->startSection('meta_description', 'Dimgent Technologies - A group of specialists with 20+ years of experience in electronic device development, based in Minsk, Belarus.'); ?>
-<?php $__env->startSection('meta_keywords', 'Dimgent Technologies, developing electronic devices, designing printed circuit boards, developing hardware devices, microcontrollers, embedded systems, microprocessors, analog electronics, digital electronics, logical systems, developing telemechanical equipment, programmable logical matrices, infra-red channels, telemetry, radio channels, remote control, analog to digital converter, tools to monitor electrical circuit signals, ferroprobe to measure magnetic field, gradiometer, electronic soil probes, robotics'); ?>
+<?php $__env->startSection('title', 'О нас'); ?>
+<?php $__env->startSection('meta_description', 'Dimgent Technologies - Группа специалистов с более чем 20-летним опытом в области разработки электронных устройств, Минск, Беларусь.'); ?>
+<?php $__env->startSection('meta_keywords', 'Dimgent Technologies, разработка электронных устройств, разработка печатных плат, микроконтроллеры, встроенные системы, аналоговая электроника, цифровая электроника, телемеханика, градиометр, робототехника'); ?>
 <?php $__env->startSection('robots', 'index, follow'); ?>
 
 <?php $__env->startSection('content'); ?>
@@ -12,13 +12,13 @@
         
         <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <span class="inline-block px-4 py-1.5 bg-primary-500/20 text-primary-400 text-sm font-semibold rounded-full mb-4">
-                About Us
+                О нас
             </span>
             <h1 class="text-4xl sm:text-5xl font-extrabold text-white mb-6">
                 Dimgent Technologies
             </h1>
             <p class="text-xl text-slate-300 max-w-3xl mx-auto mb-8">
-                A group of specialists working in the development of electronic devices.
+                Группа специалистов в области разработки электронных устройств.
             </p>
             
         </div>
@@ -30,24 +30,24 @@
             <div class="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
                 <div>
                     <span class="inline-block px-4 py-1.5 bg-primary-100 text-primary-700 text-sm font-semibold rounded-full mb-4">
-                        Who We Are
+                        Кто мы
                     </span>
                     <h2 class="text-3xl sm:text-4xl font-bold text-slate-900 mb-6">
-                        Your Partner in Electronics Development
+                        Ваш партнёр в разработке электроники
                     </h2>
                     <div class="space-y-4 text-lg text-slate-600 leading-relaxed">
                         <p>
-                            <strong class="text-slate-900">Dimgent Technologies</strong> is a group of specialists 
-                            working in the sector of electronic device development.
+                            <strong class="text-slate-900">«Dimgent Technologies»</strong> – это группа специалистов 
+                            в области разработки электронных устройств.
                         </p>
                         <p>
-                            We develop customized electronic devices. Our company includes 
-                            <strong class="text-slate-900">engineers, designers, and programmers</strong> who have been 
-                            creating electronic devices for more than twenty years.
+                            Мы осуществляем разработку электронных устройств на заказ. В состав компании входят 
+                            <strong class="text-slate-900">инженеры, конструкторы и программисты</strong>, которые 
+                            более 20 лет занимаются созданием электронных устройств.
                         </p>
                         <p>
-                            We have developed and taken part in the development of 
-                            <strong class="text-slate-900">more than 50 projects</strong> over this time.
+                            За это время мы разработали и приняли участие в разработке 
+                            <strong class="text-slate-900">более 50 проектов</strong>.
                         </p>
                     </div>
                 </div>
@@ -55,19 +55,19 @@
                 <div class="grid grid-cols-2 gap-6">
                     <div class="bg-primary-50 rounded-2xl p-6 text-center">
                         <div class="text-4xl font-extrabold text-primary-600 mb-2">20+</div>
-                        <div class="text-slate-700 font-medium">Years of Experience</div>
+                        <div class="text-slate-700 font-medium">Лет опыта</div>
                     </div>
                     <div class="bg-emerald-50 rounded-2xl p-6 text-center">
                         <div class="text-4xl font-extrabold text-emerald-600 mb-2">50+</div>
-                        <div class="text-slate-700 font-medium">Projects Completed</div>
+                        <div class="text-slate-700 font-medium">Завершённых проектов</div>
                     </div>
                     <div class="bg-amber-50 rounded-2xl p-6 text-center">
                         <div class="text-4xl font-extrabold text-amber-600 mb-2">100%</div>
-                        <div class="text-slate-700 font-medium">Success Rate</div>
+                        <div class="text-slate-700 font-medium">Успешных проектов</div>
                     </div>
                     <div class="bg-cyan-50 rounded-2xl p-6 text-center">
                         <div class="text-4xl font-extrabold text-cyan-600 mb-2">∞</div>
-                        <div class="text-slate-700 font-medium">Client Support</div>
+                        <div class="text-slate-700 font-medium">Поддержка клиентов
                     </div>
                 </div>
             </div>
@@ -79,13 +79,13 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-3xl mx-auto mb-16">
                 <span class="inline-block px-4 py-1.5 bg-emerald-100 text-emerald-700 text-sm font-semibold rounded-full mb-4">
-                    Our Approach
+                    Наш подход
                 </span>
                 <h2 class="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">
-                    Comprehensive Project Approach
+                    Комплексный подход к проектам
                 </h2>
                 <p class="text-lg text-slate-600">
-                    Dimgent Technologies offers a comprehensive approach to the projects we work on.
+                    «Dimgent Technologies» осуществляет комплексный подход к реализации проектов.
                 </p>
             </div>
             
@@ -96,9 +96,9 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/>
                         </svg>
                     </div>
-                    <h3 class="text-xl font-bold text-slate-900 mb-3">Full-Cycle Development</h3>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Полный цикл разработки</h3>
                     <p class="text-slate-600">
-                        Complete electronic devices development from concept to finished product.
+                        Полный цикл разработки электронных устройств от концепта до готового изделия.
                     </p>
                 </div>
                 
@@ -108,9 +108,9 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a2 2 0 110-4h1a1 1 0 001-1V7a1 1 0 011-1h3a1 1 0 001-1V4z"/>
                         </svg>
                     </div>
-                    <h3 class="text-xl font-bold text-slate-900 mb-3">Separate Phases</h3>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Отдельные стадии</h3>
                     <p class="text-slate-600">
-                        Carry out specific development phases like electric circuits, software, or PCB design.
+                        Реализация отдельных стадий: электрические схемы, ПО, чертежи печатных плат.
                     </p>
                 </div>
                 
@@ -120,9 +120,9 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
                         </svg>
                     </div>
-                    <h3 class="text-xl font-bold text-slate-900 mb-3">Improvement Ideas</h3>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Идеи улучшений</h3>
                     <p class="text-slate-600">
-                        We offer ideas for changes and improvements to make products even better.
+                        Мы предлагаем идеи по усовершенствованию устройства.
                     </p>
                 </div>
             </div>
@@ -139,13 +139,13 @@
                     </svg>
                 </div>
                 
-                <h2 class="text-3xl font-bold mb-6">Our Aim</h2>
+                <h2 class="text-3xl font-bold mb-6">Наша цель</h2>
                 
                 <div class="space-y-4 text-lg text-primary-100">
-                    <p>We want our clients to be <strong class="text-white">fully satisfied</strong> with the results of our work.</p>
-                    <p>We work with our clients until the product is <strong class="text-white">exactly the one they want it to be</strong>.</p>
-                    <p>We can also offer ideas for changes and improvements of the product being developed 
-                       in order to <strong class="text-white">make it even better</strong>.</p>
+                    <p>Мы хотим, чтобы наши клиенты были <strong class="text-white">полностью довольны</strong> результатами нашей работы.</p>
+                    <p>Мы работаем с нашими клиентами до тех пор, пока устройство не станет <strong class="text-white">в точности таким, каким они хотят его видеть</strong>.</p>
+                    <p>Мы также предлагаем идеи по внесению изменений и усовершенствований, 
+                       чтобы <strong class="text-white">сделать устройство ещё лучше</strong>.</p>
                 </div>
             </div>
         </div>
@@ -156,28 +156,28 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-3xl mx-auto mb-16">
                 <span class="inline-block px-4 py-1.5 bg-cyan-100 text-cyan-700 text-sm font-semibold rounded-full mb-4">
-                    Our Expertise
+                    Наш опыт
                 </span>
                 <h2 class="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">
-                    Areas of Expertise
+                    Области экспертизы
                 </h2>
                 <p class="text-lg text-slate-600">
-                    We have experience in various areas of electronic devices development, software development, and circuitry design.
+                    Мы обладаем опытом в различных областях разработки электронного оборудования, программного обеспечения и электрических схем.
                 </p>
             </div>
             
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                 <?php
                     $expertise = [
-                        ['icon' => '🔧', 'title' => 'Microcontrollers & Microprocessors', 'desc' => 'Devices and embedded systems using microcontrollers and microprocessors'],
-                        ['icon' => '📡', 'title' => 'Analog Electronics', 'desc' => 'Analog electronic devices design and development'],
-                        ['icon' => '💻', 'title' => 'Digital Electronics', 'desc' => 'Logical systems, programmable logical matrices, embedded systems'],
-                        ['icon' => '📶', 'title' => 'Telemechanics', 'desc' => 'Wi-Fi, Bluetooth, GSM, and non-standard protocols for telemetry and remote controls'],
-                        ['icon' => '🎤', 'title' => 'Signal Digitization', 'desc' => 'Systems to digitize analog and speech signals'],
-                        ['icon' => '⚡', 'title' => 'Power Circuit Monitors', 'desc' => 'Signal monitors for three-phase power circuits'],
-                        ['icon' => '🧲', 'title' => 'Magnetic Gauges', 'desc' => 'Magnetic ferroprobe gauges (gradiometers) and electronic soil probes'],
-                        ['icon' => '🤖', 'title' => 'Robotics', 'desc' => 'Robotics systems design and implementation'],
-                        ['icon' => '📏', 'title' => 'Automated Measurement', 'desc' => 'Automated systems to measure microchips and hardware devices'],
+                        ['icon' => '🔧', 'title' => 'Микроконтроллеры и микропроцессоры', 'desc' => 'Приборы и встроенные системы на микроконтроллерах и микропроцессорах'],
+                        ['icon' => '📡', 'title' => 'Аналоговая электроника', 'desc' => 'Разработка аналоговых электронных устройств'],
+                        ['icon' => '💻', 'title' => 'Цифровая электроника', 'desc' => 'Логические системы, программируемые логические матрицы, встроенные системы'],
+                        ['icon' => '📶', 'title' => 'Телемеханика', 'desc' => 'Wi-Fi, Bluetooth, GSM и нестандартные протоколы для телеметрии и телеуправления'],
+                        ['icon' => '🎤', 'title' => 'Оцифровка сигналов', 'desc' => 'Устройства оцифровки аналоговых и речевых сигналов'],
+                        ['icon' => '⚡', 'title' => 'Контроль силовых цепей', 'desc' => 'Приборы контроля параметров трёхфазных силовых цепей'],
+                        ['icon' => '🧲', 'title' => 'Феррозондовые измерители', 'desc' => 'Феррозондовые измерители магнитного поля (градиометры) и электрозонды'],
+                        ['icon' => '🤖', 'title' => 'Робототехника', 'desc' => 'Проектирование и реализация робототехнических систем'],
+                        ['icon' => '📏', 'title' => 'Автоматические измерители', 'desc' => 'Автоматические системы для измерения параметров микросхем и устройств'],
                     ];
                 ?>
                 
@@ -198,50 +198,50 @@
             <div class="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
                 <div>
                     <span class="inline-block px-4 py-1.5 bg-amber-100 text-amber-700 text-sm font-semibold rounded-full mb-4">
-                        Why Choose Us
+                        Почему мы
                     </span>
                     <h2 class="text-3xl sm:text-4xl font-bold text-slate-900 mb-6">
-                        The Main Reasons to Choose Us
+                        Основные причины выбрать нас
                     </h2>
                     
                     <div class="space-y-6 text-lg text-slate-600">
                         <p>
-                            We are happy to work on both <strong class="text-slate-900">large and small projects</strong>, 
-                            for big or small enterprises.
+                            Мы осуществляем разработку как <strong class="text-slate-900">больших, так и малых проектов</strong> 
+                            для крупных и малых предприятий.
                         </p>
                         <p>
-                            We strive to ensure the <strong class="text-slate-900">lowest cost</strong> of the products 
-                            we develop by careful selection of components (maintaining the balance between cost and quality).
+                            Мы стремимся обеспечить <strong class="text-slate-900">наименьшую стоимость</strong> разрабатываемых устройств 
+                            за счёт тщательного подбора компонентов (соблюдая баланс между ценой и качеством).
                         </p>
                     </div>
                     
                     <div class="mt-8 grid grid-cols-3 gap-4">
                         <div class="text-center p-4 bg-slate-50 rounded-xl">
-                            <div class="text-2xl font-bold text-primary-600 mb-1">Cost</div>
-                            <div class="text-xs text-slate-600">Effective</div>
+                            <div class="text-2xl font-bold text-primary-600 mb-1">Низкая</div>
+                            <div class="text-xs text-slate-600">Стоимость</div>
                         </div>
                         <div class="text-center p-4 bg-slate-50 rounded-xl">
-                            <div class="text-2xl font-bold text-emerald-600 mb-1">Quick</div>
-                            <div class="text-xs text-slate-600">Turn-around</div>
+                            <div class="text-2xl font-bold text-emerald-600 mb-1">Короткие</div>
+                            <div class="text-xs text-slate-600">Сроки</div>
                         </div>
                         <div class="text-center p-4 bg-slate-50 rounded-xl">
-                            <div class="text-2xl font-bold text-amber-600 mb-1">High</div>
-                            <div class="text-xs text-slate-600">Quality</div>
+                            <div class="text-2xl font-bold text-amber-600 mb-1">Высокое</div>
+                            <div class="text-xs text-slate-600">Качество</div>
                         </div>
                     </div>
                 </div>
                 
                 <div class="bg-slate-900 rounded-3xl p-8 lg:p-10">
-                    <h3 class="text-2xl font-bold text-white mb-8">Dimgent Technologies Is:</h3>
+                    <h3 class="text-2xl font-bold text-white mb-8">Dimgent Technologies — это:</h3>
                     <ul class="space-y-4">
                         <?php
                             $facts = [
-                                'More than 20 years of experience',
-                                'More than 50 successfully completed projects',
-                                'Experienced specialists',
-                                'Guaranteed quality',
-                                'Short turn-around times',
-                                'Cost effective solutions'
+                                'Более 20 лет опыта',
+                                'Более 50 успешно завершённых проектов',
+                                'Опытные специалисты',
+                                'Гарантированное качество',
+                                'Короткие сроки разработки',
+                                'Эффективные решения'
                             ];
                         ?>
                         <?php $__currentLoopData = $facts; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $fact): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
@@ -264,16 +264,16 @@
     <section class="py-20 lg:py-28 bg-gradient-to-br from-primary-600 to-primary-700">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 class="text-3xl sm:text-4xl font-bold text-white mb-6">
-                Ready to Work With Us?
+                Готовы работать с нами?
             </h2>
             <p class="text-xl text-primary-100 mb-8 max-w-2xl mx-auto">
-                Let's discuss your electronic device development needs and see how we can help bring your ideas to life.
+                Давайте обсудим ваши потребности в разработке электронных устройств и поможем воплотить ваши идеи в жизнь.
             </p>
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
                 <a href="<?php echo e(route('contacts')); ?>" 
                    class="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white text-primary-700 font-bold rounded-xl
                           shadow-xl hover:bg-primary-50 transform hover:-translate-y-0.5 transition-all duration-200">
-                    Contact Us
+                    Свяжитесь с нами
                     <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
                     </svg>
@@ -281,7 +281,7 @@
                 <a href="<?php echo e(route('services')); ?>" 
                    class="inline-flex items-center justify-center gap-2 px-8 py-4 bg-primary-500/30 text-white font-semibold rounded-xl
                           border border-primary-400/30 hover:bg-primary-500/50 transition-all duration-200">
-                    Explore Our Services
+                    Наши услуги
                 </a>
             </div>
         </div>
