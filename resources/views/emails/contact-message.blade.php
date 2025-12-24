@@ -104,7 +104,7 @@
     </div>
     
     <div class="footer">
-        <p>This message was sent from the contact form at dimgent.com</p>
+        <p>This message was sent from the contact form at dimgent.by</p>
         <p>Submitted on {{ now()->format('F j, Y \a\t g:i A') }} (UTC)</p>
     </div>
 </body>
