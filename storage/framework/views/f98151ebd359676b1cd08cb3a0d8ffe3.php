@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="<?php echo e(csrf_token()); ?>">
     
-    <title><?php echo $__env->yieldContent('title', 'Dimgent Technologies'); ?> - Electronics Development</title>
-    <meta name="description" content="<?php echo $__env->yieldContent('meta_description', 'Dimgent Technologies - Custom electronic device development. From concept to finished product.'); ?>">
-    <meta name="keywords" content="<?php echo $__env->yieldContent('meta_keywords', 'Dimgent Technologies, electronics development, custom electronic device development'); ?>">
+    <title><?php echo $__env->yieldContent('title', 'Dimgent Technologies'); ?> - Разработка электроники</title>
+    <meta name="description" content="<?php echo $__env->yieldContent('meta_description', 'Dimgent Technologies - Разработка электронных устройств на заказ. От концепта до готового изделия.'); ?>">
+    <meta name="keywords" content="<?php echo $__env->yieldContent('meta_keywords', 'Dimgent Technologies, разработка электроники, разработка электронных устройств на заказ'); ?>">
     <meta name="googlebot" content="index, follow" />
     <meta name="robots" content="<?php echo $__env->yieldContent('robots', 'index, follow'); ?>" />
     <!-- Fonts -->
@@ -46,7 +46,7 @@
                     
                     <div class="hidden sm:block">
                         <span class="block text-lg font-bold text-slate-900 leading-tight">&#47;&#47; Dimgent Technologies</span>
-                        <span class="block text-xs text-primary-600 font-medium tracking-wide uppercase">Electronics Development</span>
+                        <span class="block text-xs text-primary-600 font-medium tracking-wide uppercase">Разработка электроники</span>
                     </div>
                 </a>
                 
@@ -54,12 +54,12 @@
                 <div class="hidden lg:flex items-center gap-1">
                     <?php
                         $navItems = [
-                            ['route' => 'home', 'label' => 'Home'],
-                            ['route' => 'products', 'label' => 'Products'],
-                            ['route' => 'services', 'label' => 'Services'],
-                            ['route' => 'projects', 'label' => 'Projects'],
-                            ['route' => 'about', 'label' => 'About'],
-                            ['route' => 'contacts', 'label' => 'Contacts'],
+                            ['route' => 'home', 'label' => 'Главная'],
+                            ['route' => 'products', 'label' => 'Разработки'],
+                            ['route' => 'services', 'label' => 'Услуги'],
+                            ['route' => 'projects', 'label' => 'Проекты'],
+                            ['route' => 'about', 'label' => 'О нас'],
+                            ['route' => 'contacts', 'label' => 'Контакты'],
                         ];
                     ?>
                     
@@ -73,6 +73,9 @@
 
                         </a>
                     <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+                    
+                    <!-- Language Switcher (iOS Toggle Style) -->
+                    
                 </div>
                 
                 <!-- Mobile Menu Button -->
@@ -112,6 +115,9 @@
 
                     </a>
                 <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+                
+                <!-- Russian Version Link -->
+                
             </div>
         </div>
     </nav>
@@ -132,12 +138,12 @@
                         
                         <div>
                             <span class="block text-lg font-bold text-white">Dimgent Technologies</span>
-                            <span class="block text-sm text-primary-400">Electronics Development</span>
+                            <span class="block text-sm text-primary-400">Разработка электроники</span>
                         </div>
                     </div>
                     <p class="text-slate-400 leading-relaxed max-w-md mb-6">
-                        A group of specialists with more than 20 years of experience in electronic device development. 
-                        From concept to finished product, we deliver quality solutions.
+                        Группа специалистов с более чем 20-летним опытом в области разработки электронных устройств. 
+                        От концепта до готового изделия — качественные решения.
                     </p>
                     <div class="flex items-center gap-2 text-slate-400">
                         <svg class="w-5 h-5 text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -150,11 +156,11 @@
                 
                 <!-- Quick Links -->
                 <div>
-                    <h4 class="text-white font-semibold mb-6">Quick Links</h4>
+                    <h4 class="text-white font-semibold mb-6">Все разделы сайта</h4>
                     <ul class="space-y-3">
-                        <?php $__currentLoopData = ['Home', 'Products', 'Services', 'Projects', 'About', 'Contacts']; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $link): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                        <?php $__currentLoopData = ['Главная' => 'home', 'Разработки' => 'products', 'Услуги' => 'services', 'Проекты' => 'projects', 'О нас' => 'about', 'Контакты' => 'contacts']; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $link => $route): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                             <li>
-                                <a href="<?php echo e(route(strtolower($link))); ?>" 
+                                <a href="<?php echo e(route($route)); ?>" 
                                    class="text-slate-400 hover:text-primary-400 transition-colors">
                                     <?php echo e($link); ?>
 
@@ -166,13 +172,13 @@
                 
                 <!-- Services -->
                 <div>
-                    <h4 class="text-white font-semibold mb-6">Our Services</h4>
+                    <h4 class="text-white font-semibold mb-6">Наши услуги</h4>
                     <ul class="space-y-3 text-slate-400">
-                        <li>Electric Circuit Design</li>
-                        <li>Software Development</li>
-                        <li>PCB Layout Design</li>
-                        <li>Prototyping</li>
-                        <li>Technical Support</li>
+                        <li>Разработка электрических схем</li>
+                        <li>Разработка программного обеспечения</li>
+                        <li>Разработка чертежей печатных плат</li>
+                        <li>Производство опытных образцов</li>
+                        <li>Техническая поддержка</li>
                     </ul>
                 </div>
             </div>
@@ -180,15 +186,15 @@
             <!-- Bottom Bar -->
             <div class="py-6 border-t border-slate-800 flex flex-col sm:flex-row justify-between items-center gap-4">
                 <p class="text-sm text-slate-500">
-                    &copy; <?php echo e(date('Y')); ?> &#47;&#47; Dimgent Technologies. All rights reserved.
+                    &copy; <?php echo e(date('Y')); ?> &#47;&#47; Dimgent Technologies. Все права защищены.
                 </p>
                 <p class="text-sm text-slate-500">
                     Website design by <a href="https://sitestar.by/" target="_blank" rel="noopener" class="text-gray-300 text-lg underline hover:text-primary-400 hover:no-underline transition-colors">Sitestar</a>
                 </p>
                 <div class="flex items-center gap-6 text-sm text-slate-500">
-                    <span>More than 50 projects completed</span>
+                    <span>Более 50 завершённых проектов</span>
                     <span class="hidden sm:inline">•</span>
-                    <span>20+ years of experience</span>
+                    <span>20+ лет опыта</span>
                 </div>
             </div>
         </div>
