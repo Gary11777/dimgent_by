@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Form Submission</title>
+    <title>Отправка контактной формы</title>
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
@@ -65,32 +65,32 @@
 </head>
 <body>
     <div class="header">
-        <h1>New Contact Form Submission</h1>
+        <h1>Запрос с сайта dimgent.by</h1>
     </div>
     
     <div class="content">
         <div class="field">
-            <div class="field-label">From</div>
+            <div class="field-label">Отправитель</div>
             <div class="field-value">{{ $data['name'] }} &lt;{{ $data['email'] }}&gt;</div>
         </div>
         
         @if(!empty($data['company']))
         <div class="field">
-            <div class="field-label">Company</div>
+            <div class="field-label">Компания</div>
             <div class="field-value">{{ $data['company'] }}</div>
         </div>
         @endif
         
         <div class="field">
-            <div class="field-label">Subject</div>
+            <div class="field-label">Тема</div>
             <div class="field-value">
                 @php
                     $subjectMap = [
-                        'project' => 'New Project Inquiry',
-                        'product' => 'Product Information (Garand 101)',
-                        'services' => 'Service Consultation',
-                        'partnership' => 'Partnership Opportunity',
-                        'other' => 'Other',
+                        'project' => 'Новый проект',
+                        'product' => 'Информация о продукте (Garand 101)',
+                        'services' => 'Консультация по услугам',
+                        'partnership' => 'Партнерское предложение',
+                        'other' => 'Другое',
                     ];
                 @endphp
                 {{ $subjectMap[$data['subject']] ?? $data['subject'] }}
@@ -104,8 +104,8 @@
     </div>
     
     <div class="footer">
-        <p>This message was sent from the contact form at dimgent.by</p>
-        <p>Submitted on {{ now()->format('F j, Y \a\t g:i A') }} (UTC)</p>
+        <p>Это сообщение было отправлено через форму контактов на dimgent.by</p>
+        <p>Дата и время отправки: {{ now()->format('d.m.Y H:i T') }} (Мск)</p>
     </div>
 </body>
 </html>
