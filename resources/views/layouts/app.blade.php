@@ -88,14 +88,14 @@
                     @endforeach
                     
                     <!-- Language Switcher (iOS Toggle Style) -->
-                    {{-- <div class="ml-4 flex items-center bg-slate-200 rounded-full p-0.5">
-                        <span class="px-3 py-1 text-xs font-semibold text-white bg-primary-600 rounded-full shadow-sm">EN</span>
-                        <a href="https://dimgent.by"
+                    <div class="ml-4 flex items-center bg-slate-200 rounded-full p-0.5">
+                        <span class="px-3 py-1 text-xs font-semibold text-white bg-primary-600 rounded-full shadow-sm">RU</span>
+                        <a href="https://dimgent.com"
                            rel="noopener noreferrer"
                            class="px-3 py-1 text-xs font-semibold text-slate-500 hover:text-slate-700 rounded-full transition-all duration-200">
-                            RU
+                            EN
                         </a>
-                    </div> --}}
+                    </div>
                 </div>
                 
                 <!-- Mobile Menu Button -->
@@ -136,12 +136,12 @@
                 @endforeach
                 
                 <!-- Russian Version Link -->
-                {{-- <a href="https://dimgent.by"
+                <a href="https://dimgent.com"
                    rel="noopener noreferrer"
                    @click="mobileMenuOpen = false"
                    class="block px-4 py-3 text-base font-medium rounded-lg transition-colors text-slate-600 hover:text-primary-600 hover:bg-slate-50 text-center">
-                    RU Version
-                </a> --}}
+                    EN Version
+                </a>
             </div>
         </div>
     </nav>
