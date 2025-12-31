@@ -236,6 +236,21 @@
     <style>
         [x-cloak] { display: none !important; }
     </style>
+    
+    <!-- Email Spam Protection -->
+    <script>
+        function showEmail() {
+            const user = "info";
+            const domain = "dimgent.by";
+            window.location.href = "mailto:" + user + "@" + domain;
+        }
+        
+        function showEmailByElement(element) {
+            const user = element.dataset.user;
+            const domain = element.dataset.domain;
+            window.location.href = "mailto:" + user + "@" + domain;
+        }
+    </script>
 </body>
 </html>
 <?php /**PATH D:\Projects\laravel_herd_projects\dimgent_by\resources\views/layouts/app.blade.php ENDPATH**/ ?>
