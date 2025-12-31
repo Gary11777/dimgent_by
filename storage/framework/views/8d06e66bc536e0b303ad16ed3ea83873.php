@@ -64,7 +64,10 @@
                                 </div>
                                 <div>
                                     <h3 class="text-lg font-bold text-slate-900 mb-1">Э-почта</h3>
-                                    <img src="<?php echo e(asset('images/mail_white.png')); ?>" alt="Email">
+                                    <button onclick="showEmail()" 
+                                            class="text-slate-600 hover:text-primary-600 transition-colors text-left font-medium">
+                                        info [at] dimgent [dot] by
+                                    </button>
                                     <p class="text-sm text-slate-500 mt-1">Мы отвечаем в течение 24 часов</p>
                                 </div>
                             </div>
@@ -217,7 +220,7 @@
                                     </div>
                                     <div>
                                         <h4 class="font-bold text-emerald-800">Сообщение отправлено!</h4>
-                                        <p class="text-emerald-700 text-sm mt-1">Спасибо за обращение. Мы свяжемся с вами в течение 24 часов.</p>
+                                        <p class="text-emerald-700 text-sm mt-1">Спасибо за обращение. Мы свяжемся с вами в ближайшее время.</p>
                                     </div>
                                 </div>
                             </div>
@@ -373,7 +376,7 @@
                     $faqs = [
                         [
                             'question' => 'Как начать проект с Dimgent Technologies?',
-                            'answer' => 'Просто отправьте нам сообщение через форму выше или напишите на email. Опишите вашу идею и требования, и наша команда свяжется с вами в течение 24 часов.'
+                            'answer' => 'Просто отправьте нам сообщение через форму выше или нажмите на кнопку email на этой странице. Опишите вашу идею и требования, и наша команда свяжется с вами в течение 24 часов.'
                         ],
                         [
                             'question' => 'Вы работаете с международными клиентами?',
