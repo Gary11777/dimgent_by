@@ -48,9 +48,9 @@
                                 </div>
                                 <div>
                                     <h3 class="text-lg font-bold text-slate-900 mb-1">Телефон</h3>
-                                    <div x-data="obfuscatedPhone(['+375 ', '29 ', '636-', '35-', '97'])">
-                                        <a href="javascript:void(0)" 
-                                           @click="call()" 
+                                    <div x-data="obfuscatedPhone(['+375 ', '29 ', '636-', '35-', '97'])" x-cloak>
+                                        <a href="#" 
+                                           @click.prevent="call()" 
                                            class="text-slate-600 hover:text-primary-600 transition-colors" 
                                            x-text="displayPhone">
                                         </a>
