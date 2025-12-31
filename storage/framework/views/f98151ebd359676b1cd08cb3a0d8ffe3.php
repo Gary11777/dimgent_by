@@ -58,7 +58,7 @@
                 <!-- Logo -->
                 <a href="<?php echo e(route('home')); ?>" class="flex items-center gap-3 group">
                     
-                    <div class="hidden sm:block">
+                    <div>
                         <span class="block text-lg font-bold text-slate-900 leading-tight">&#47;&#47; Dimgent Technologies</span>
                         <span class="block text-xs text-primary-600 font-medium tracking-wide uppercase">Разработка электроники</span>
                     </div>
