@@ -65,7 +65,13 @@
                                 </div>
                                 <div>
                                     <h3 class="text-lg font-bold text-slate-900 mb-1">Телефон</h3>
-                                    <a href="tel:+375296363597" class="text-slate-600 hover:text-primary-600 transition-colors">+375 29 636-35-97</a>
+                                    <div x-data="obfuscatedPhone(['+375 ', '29 ', '636-', '35-', '97'])">
+                                        <a href="javascript:void(0)" 
+                                           @click="call()" 
+                                           class="text-slate-600 hover:text-primary-600 transition-colors" 
+                                           x-text="displayPhone">
+                                        </a>
+                                    </div>
                                     <p class="text-sm text-slate-500 mt-1">Звоните в рабочее время</p>
                                 </div>
                             </div>
