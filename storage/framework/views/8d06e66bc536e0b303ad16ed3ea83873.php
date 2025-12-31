@@ -217,7 +217,7 @@
                                     </div>
                                     <div>
                                         <h4 class="font-bold text-emerald-800">Сообщение отправлено!</h4>
-                                        <p class="text-emerald-700 text-sm mt-1">Спасибо за обращение. Мы свяжемся с вами в течение 24 часов.</p>
+                                        <p class="text-emerald-700 text-sm mt-1">Спасибо за обращение. Мы свяжемся с вами в ближайшее время.</p>
                                     </div>
                                 </div>
                             </div>
