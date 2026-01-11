@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\SitemapController;
 use Illuminate\Support\Facades\Route;
 
 // Home
@@ -36,3 +37,6 @@ Route::get('/contacts', function () {
 Route::post('/contacts', [ContactController::class, 'submit'])
     ->middleware(['throttle:5,60'])
     ->name('contacts.submit');
+
+// Sitemap
+Route::get('/sitemap.xml', [SitemapController::class, 'index'])->name('sitemap');
